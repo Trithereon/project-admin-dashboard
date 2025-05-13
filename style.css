@@ -92,12 +92,14 @@ header {
     grid-row: 1 / 4;
     gap: 20px 100px;
     align-items: center;
+    justify-items: left;
     padding: 20px;
 }
 
 .header-actions {
     display:grid;
     align-items: center;
+    gap: 10px;
 }
 
 .header-actions .notifications {
@@ -126,6 +128,7 @@ button.file-control {
     grid-template-columns: 1fr 9fr;
     grid-template-rows: 1fr;
     align-items: center;
+    gap: 10px;
 }
 
 .search {
@@ -144,6 +147,7 @@ input {
     display:grid;
     align-items: center;
     font-weight: bold;
+    gap: 10px;
 }
 
 .welcome-container .avatar {
